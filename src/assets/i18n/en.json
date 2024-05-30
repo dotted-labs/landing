@@ -1,0 +1,20 @@
+{
+  "LANDING": {
+    "SLOGAN": "Connecting dots and shaping the digital frontier, where technology meets creative innovation.",
+    "EXPLORE_ON_GITHUB": "Explore on Github"
+  },
+  "HEADER": {
+    "LOGO": "/assets/images/logo-min.png",
+    "STAR_ON_GITHUB": "Star on Github",
+    "GO_TO_CONSOLE": "Go to console"
+  },
+  "FOOTER": {
+    "LOGO": "/assets/images/logo-min.png",
+    "ALL_RIGHTS_RESERVED": "ⓒ {{year}} Dotted Labs all rights reserved",
+    "VERSION": "Version {{version}}"
+  },
+  "COMMON": {
+    "LINK_GITHUB": "https://github.com/luismdev/portfolio-starter",
+    "LINK_DOCS": "https://github.com/luismdev/portfolio-starter"
+  }
+}
