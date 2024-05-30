@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "portfolio-starter": {
+    "landing": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -12,13 +12,13 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "portfolio-starter",
+      "prefix": "landing",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "allowedCommonJsDependencies": ["lodash"],
-            "outputPath": "dist/portfolio-starter",
+            "outputPath": "dist/landing",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -94,13 +94,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "portfolio-starter:build:production"
+              "buildTarget": "landing:build:production"
             },
             "development": {
-              "buildTarget": "portfolio-starter:build:development"
+              "buildTarget": "landing:build:development"
             },
             "pre": {
-              "buildTarget": "portfolio-starter:build:pre"
+              "buildTarget": "landing:build:pre"
             }
           },
           "defaultConfiguration": "development",
@@ -111,7 +111,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "portfolio-starter:build"
+            "buildTarget": "landing:build"
           }
         },
         "test": {

@@ -14,7 +14,7 @@
     "VERSION": "Version {{version}}"
   },
   "COMMON": {
-    "LINK_GITHUB": "https://github.com/luismdev/portfolio-starter",
-    "LINK_DOCS": "https://github.com/luismdev/portfolio-starter"
+    "LINK_GITHUB": "https://github.com/luismdev/landing",
+    "LINK_DOCS": "https://github.com/luismdev/landing"
   }
 }

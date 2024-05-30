@@ -3,7 +3,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { environment } from './../../../../../environments/environment';
 
 @Component({
-  selector: 'portfolio-starter-footer',
+  selector: 'landing-footer',
   standalone: true,
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss',

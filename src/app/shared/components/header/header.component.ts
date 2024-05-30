@@ -5,7 +5,7 @@ import { environment } from '../../../../../environments/environment';
 import { NgbOffcanvas } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'portfolio-starter-header',
+  selector: 'landing-header',
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
   standalone: true,
